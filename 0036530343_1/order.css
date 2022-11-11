@@ -1,0 +1,82 @@
+.flex-container {
+    list-style: none;
+    border: 1px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding-left: 0%;
+    margin: auto;
+    width: auto;
+}
+.flex-rows {
+    list-style: none;
+    border: 1px;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    padding-left: 0%;
+    margin: auto;
+    width: auto;
+}
+
+.flex-item {
+    background: blue;
+    width: 100px;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: auto;
+}
+.flex-item-tulips img {
+    height: 100%;
+}
+.flex-item-tulips{
+    background: url(/1lab-baseline/images/tulip.jpg) 50% 50%;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+.flex-item-lavander{
+    background: url(/1lab-baseline/images/lavender.jpg) 50% 50%;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+.flex-item-fushia {
+    background: url(/1lab-baseline/images/fuchsia.jpg) 50% 50%;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+.flex-no-item {
+    background: #f7f7f7;
+    width: 200px;
+    height: 200px;
+}
+.text-align {
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+    vertical-align: top;
+    padding-bottom: 10px;
+    
+}
+.flex-item-rakes{
+    background: url(/1lab-baseline/images/rake.jpg) 50% 50%;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+
+}
+.flex-item-shovels {
+    background: url(/1lab-baseline/images/shovel.jpg) 50% 50%;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+}
